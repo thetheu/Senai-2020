@@ -1,0 +1,135 @@
+24/01/2020
+Para reconhecimento dos Escopos dos Projetos:
+
+Pesquisar:
+- OKR's
+- Onboard
+- Diagrama de caso de uso
+- 	
+
+Definições:
+- Não relacionadas: as coisas não relacionadas as funcionalidades básicas.
+- Relacionais: são as funcionalidades padrões do projeto (básicas).
+- MVP: Mínimo Produto Viável.
+- 
+
+Importante: 
+- Realizar pesquisar e perguntas para antes de encontrar o cliente. Trazer ideias, sugestões, exemplos
+ de soluções para a ideia do cliente.
+- Primeiramente na entrevista se apresentar, conhecer o cliente e a ideia da empresa. Tudo formal.
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Perguntas para o cliente da situação inicial:
+
+1- Você já possui site? Se não, é interessante ter um site informativo ou você pretende continuar com meios menores de divulgação?
+Resposta: não
+
+2- Qual seu publico alvo?
+Resposta: Desenvolvedores
+
+3- Gostaria de realizar vendas pelo site?
+Resposta: não, somente ligações e por email
+
+4- Qual a quantidade de pacotes que você possui?
+Resposta: não especificado.
+
+5- Você se interessa por design de algum site?
+Resposta: If( resposta === false)
+{
+ console.WriteLine("deveria checar outros sites")
+}
+
+6- Você possui slogan ou logo?
+Resposta: sim, ele ira passar.
+
+7- Sua empresa realiza viajens internacionais?
+Resposta: sim, principalmente europa, EUA, canada
+
+8- Você tem algum tratamento especial para um publico alvo tão especifico quanto desenvolvedores?
+R: sim, facilita a conversa entre desenvolvedor e empresas do país de destino.
+
+9- Há alguma cor caracteristica marcante em sua empresa? (ex: cor, simbologia, fonte e entre outros)
+??
+--------------------------------------------------------------------------------------------------------------------------------------
+Ideia da empresa: 
+Auxiliar desenvolvedores a viajar e turistar por outros países, facilitando a "Apresentação" dos clientes a empresas dos 
+determinados países.
+
+App: Interesse em aplicativo, onde havera as informações dos vários pacotes, Ligação por app ou enviar e-mail
+booking e 
+listagem de pacotes ativos somentes
+não há necessidade de login, qualquer um pode entrar
+
+Meio Web: facilidade em navegar pela web. Autenticação por adm(simples, com somente um usuario de adm. No inicio), cadastro 
+de pacotes e alteração deles por Web.
+Tela de login onde o usuario adm podera alterar informações e cadastrar pacotes
+Não ha necessidade de tradução
+distinos principais: Europa, EUA e Canada
+descrição: modos de pagamento: dinheiro, cartão e boleto
+Já tem uma área de listagem no web, onde poderiamos reutilizar e integrar com a nossa área de login e cadastro que iremos programar.
+nada futuristico e sim funcional e pratico
+
+=======================================================================================================================================
+28/01/2020
+
+http://dontpad.com/senai-dev-1s20203T/escopo-projeto
+BackLog = todas as tarefas a serem feitas
+
+- RF: 
+> faça uma tela mostrando a lista de produtos retornada
+> A lista deve suportar paginação
+> Ao clicar em "COMPRE", deve ser exibida uma modal de confirmação de adição à sacola
+> Os botões das modais apenas fecham elas
+> Clicar em "AVISE-ME" abre uma modal para o usuário digitar seu nome e e-mail
+> Os botões das modais apenas fecham elas	
+
+- RNF:
+> As páginas devem ser carregadas apenas quando forem ser exibidas para o usuário
+> Para melhorar a performance, é possível descarregar da memória os itens que já passaram e não são mais exibidos na tela?
+
+
+- RN:
+> Imagem deve vir do ImageObjects com featured: true
+> Ao voltar para a lista de produtos, ela deve estar disponível para o usuário sem fazer uma nova requisição à API
+> Ao clicar em um produto, o app deve consumir o endpoint https://pacific-wave-51314.herokuapp.com/products/<product_sku> para 
+exibir a tela de produto
+
+==================================================================================================================================
+29/01/2020
+
+Dataannotation
+
+==================================================================================================================================
+30/01/2020
+baixamos o sql server 2017
+
+==================================================================================================================================
+31/01/2020
+
+Pesquisar: 
+-pesquisar: injeção de dependências
+
+==================================================================================================================================
+04/02/2020
+
+Apresentação sobre testes:
+
+-O que é teste (definição)
+  Todo mecanismo que busca verificar ou provar a verdade. Exame crítico ou prova das qualidades de uma 
+pessoa ou coisa.
+
+-Porque ele é importante
+  O teste de API é importante como qualquer outro tipo de teste de aplicativo, pois ajuda a garantir o funcionamento, 
+o desempenho e a confiabilidade de diferentes aplicativos e sistemas baseados em dados. Além disso,
+ quando analisamos as últimas tendências de teste de software, eles são uns dos mais importantes.
+os testes de API estão na lista de prioridades para verificação.
+
+-No que ele agrega
+  Quando queremos agregar qualidade a um software necessitamos realizar bons testes com o intuito de melhorar cada vez o mesmo
+e com as APIs não é diferente. O teste de API é uma parte muito importante do ciclo de vida de desenvolvimento tanto da API 
+quanto do sistema como um todo. Além disso, se uma API for interrompida porque defeitos foram escapados, pode ocorrer de não apenas quebrar
+um único aplicativo, mas também toda uma cadeia de processos de negócios.
+
+
+
+
