@@ -1,28 +1,19 @@
-import Login from './pages/login';
-import Vagas from './pages/vagas';
+
+import { createAppContainer } from 'react-navigation';
+
 import { createBottomTabNavigator } from 'react-navigation-tabs';
-import { createAppContainer, createSwitchNavigator } from 'react-navigation';
-import { createStackNavigator } from '@react-native-community/masked-view'
 
-const AuthStack = createStackNavigator({
-  Sign: { screen: Login },
-})
+import LoginScreen from './pages/login';
+import VagasScreen from './pages/vagas';
 
-const MainNavigator = createBottomTabNavigator({
+const MainNavigator = createBottomTabNavigator(
+    {
+        Login: {
+            screen: LoginScreen
+        },
+        Vagas: {
+            screen: VagasScreen
+        }
+    });
 
-  VagasScreen: {
-      screen: Vagas
-  }
-});
-
-export default createAppContainer(
-  createSwitchNavigator(
-      {
-          MainNavigator,
-          AuthStack,
-      },
-      {
-          initialRouteName: 'AuthStack'
-      },
-  ),
-)
+    export default createAppContainer(MainNavigator)
