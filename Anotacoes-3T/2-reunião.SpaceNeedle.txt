@@ -1,0 +1,46 @@
+reuniões- dailes (andressa)
+
+historia de usuario - vão trazer treinamento:
+eu como...
+quero...
+porque...
+
+ayoshida@eusou.space
+tradução da ideia do cliente para uma linguagem mais tecnologica.
+
+- universum: processos diferentes, porem mesmo resultado
+não importa a nuvem ou os requisitos do software eles iram conversar.(universal)
+não ajudaria na api do azure
+apis do universum pode ajudar a salvar as especificacões das criações de ambiente
+
+
+azul, branco e vermelho
+
+- Modelo de engenharia spotify
+
+-ser acertivo (fazer coisas que o cliente espera)
+acordo entre o cliente e a gente
+
+além de criar ambiente é preciso popular a massa de dados:
+ex: para testar uma lista é necessarios os usuarios da lista.
+
+
+- criar no azure e exportar os templates primeiro (para achar mais facil).
+- entender o processo de como redes ira exportar os templates é escencial 
+
+linguagens usadas na space needle:
+C# - backend
+xamarym
+flutter (dart)
+
+
+
+
+=================================================================================================
+requisitos:
+salvar as informações de ambiente nas nuvens para gerenciamento final (E também porque é sempre bom).
+
+
+
+
+

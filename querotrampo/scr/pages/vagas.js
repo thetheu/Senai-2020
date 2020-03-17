@@ -1,78 +1,51 @@
-import React, { Component} from 'react';
-import { AsyncStorage, Text, View, StyleSheet, styles, TextInput, TouchableOpacity} from 'react-native';
+import React, { Component } from 'react';
+import { Text, View, AsyncStorage, StyleSheet, Image } from 'react-native';
+// import { FlatList } from 'react-native-gesture-handler';
 
+class Vagas extends Component {
 
-class Login extends Component {
-    
     static navigationOptions = {
         header: null,
     }
 
-    constructor(){
+    constructor() {
         super();
         this.state = {
-            email: "",
-            senha: "",
-        };
+            vagas: [],
+
+        } 
     }
 
+    componentDidMount() {
+        this._listarVagas();
+    }
 
-    _realizarLogin = async () => {
-        await fetch('http://corujasdev-001-site1.etempurl.com', {
-            method: 'POST',
+    _listarVagas = async () => {
+        await fetch('http://corujasdev-001-site1.etempurl.com',{
             headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                email: "eve.holt@reqres.in",
-                senha: "cityslicka"
-            }),
-        })
-        .then(resposta => resposta.json())
-        .then(data => this._token(data.token))
-        .catch(erro => console.warn("ta erradooooooo", erro))
-    }
-
-    _token = async (tokenRecebido) => {
-        if (tokenRecebido != null) {
-            try {
-                await AsyncStorage.setItem('nomeDoToken:token', tokenRecebido);
-                this.props.navigation.navigate('MainNavigation')
-            } catch (error) {
-                console.warn("ta erradoooooooooooo", error)
+                'Authorization': 'Bearer ' + await AsyncStorage.getItem('@nomeDoToken:token')
             }
-        }
+        })
+        .then(response => response.json())
+        .then(data => this.setState({ vagas: data}))
+        .catch(error => console.warn("ta eraadooooooo" + error))
     }
 
     render() {
-        return(
-          <View>
-
-          <View>
-              <Text>Senai</Text>
-              <TextInput
-                  placeholderTextColor="gray"
-                  placeholder="email"
-                  onChangeText={email => this.setState({ email })}
-                  value={this.state.email}
-                  
-              />
-              <TextInput
-                  placeholderTextColor="gray"
-                  placeholder="senha"
-                  onChangeText={senha => this.setState({ senha })}
-                  value={this.state.senha}
-                  
-              />
-              <TouchableOpacity onPress={this._realizarLogin}>
-                  <Text >Logar</Text>
-              </TouchableOpacity>
-          </View>
-      </View>
+        return ( 
+            <View>
+                <Text>asdwasd</Text>
+                
+                {/* <FlatList
+                data={this.state.vagas}
+                keyExtractor={item => item.IdVagas}
+                renderItem={({ item }) => (
+                    <Text>{item.titulo}</Text>
+                )}
+                /> */}
+            </View>
         )
     }
 }
 
-
-export default Login;
+export default Vagas;

@@ -1,0 +1,99 @@
+ANOTAÇÂO:
+ter de criar um projeto com banco e pra acessar o banco no windows(chrome por exemplo),
+antes de ser acessado o codigo passa por varios ambientes de teste, na espace são quatro:
+ambiente de produção, monogação de produção
+desenvolvimento e monogação de desenvolvimento
+
+quando ligado continua a cobrar(2 meses sem uso = desperdicio)
+criar um ambiente quando precisar usar e deleta-lo rapido.
+
+site/botão/ou até script.
+
+apartir de um codigo executar o script
+fazer script de altomacão e o deixa-lo na plataforma do azure
+
+
+IAC = modo pausado (passo a passo)/ oq acharem melhor
+
+power apps: objetivo do power apps, diminuição da programação.
+talvez funcione web (achamos que era somente mobile)
+
+
+=========================================================================================================================
+4- Serviços e S.Os a serem configurados ?
+
+Reposta: alguma forma que isso fosse relevante, comecar pelo web site com azure function, contas de storage(storage acount)
+
+11- Space needle universum plataforma da space ?! Como funciona e de que forma iremos utilizar a mesma.
+
+Reposta:  forma da space para criar software em nuvem para extrair a nuvem
+ex: windowns extrai o computador e se vira com qualquer maquina
+com ela não importa qual tipo de maquina (window, mac)
+se fosse gravar em banco de dados usar o universum para diminuição de armazenamento de dados.
+como usar: iram desponibilizar para nós, muitas funcionalidades porém não completo.
+
+2- Porque Azure e não a AWS se há uma parceria !?
+Reposta: preferencia pelo Azure
+
+6- Preferência por api ou por PowerApps?
+Reposta: Programação na mão ou PowerApps, escolha do pessoa de dev
+
+
+=========================================================================================================================
+
+caso nuvem:
+
+3- Quantos ambientes seriam esperados para se criar e funcionar ao mesmo tempo?
+Reposta:
+
+8- A plataforma PowerApps será a ligação entre o Azure Resource Manager e a interface? Se sim é necessário a utilização? 
+Reposta:
+
+10- Quem será possível de acessar o site/app?
+Reposta:
+
+======================================================================================================================
+grupo do schorch:
+
+app = mais focada para usaurio (que gostaria de doar sangue).
+web = tanto para os dois.
+
+ideia = conectar doadores de sangue com centros de doação
+sangue esta em falta, tem validade, acaba rapido.
+importante fazer requisição para quem precisa de sangue.
+sangue é propriedade do governo (no Brasil)
+
+bancos de sangue precisam de ajuda.
+app ajuda a controlar a quando ele pode doar de novo, preencher requisitos para doardor.
+banco informa o tipo de sangue que precisa e o sistema conecta o banco ao doador mais proximo e ideal.
+
+notificar o doador que ele ajudou a salvar uma vida, incentivo ao doados.
+contabilidade de quantidade de sangue.
+status de informação de saúde, 
+cria um usuario = acesso ao seu proprio dados de saúde.
+backend compartilhado. agilizando com universum.
+
+quanto mais descontraido melhor:
+facebook app para doar sangue (exemplo a ser seguido)
+
+objetivo é o incentivo a doar sangue, quanto mais melhor (dentro da saúde do paciente)
+
+relatorio para adm = dashboard de como esta o ritmo das doações (qtd de doação por região)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
