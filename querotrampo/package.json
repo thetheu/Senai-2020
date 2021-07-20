@@ -13,7 +13,7 @@
     "core-util-is": "^1.0.2",
     "jwt-decode": "^2.2.0",
     "react": "16.8.6",
-    "react-native": "0.60.6",
+    "react-native": "0.62.3",
     "react-native-gesture-handler": "^1.6.0",
     "react-native-reanimated": "^1.7.0",
     "react-native-safe-area-context": "^0.7.3",
